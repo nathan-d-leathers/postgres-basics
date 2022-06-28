@@ -5,8 +5,7 @@ CREATE TABLE students (
   first_name   varchar(255) NOT NULL,
   last_name    varchar(255) NOT NULL,
   birthdate    date NOT NULL,
-  address_id   integer,
-  class_id     integer
+  address_id   integer
 );
 
 DROP TABLE IF EXISTS addresses;
